@@ -10,6 +10,8 @@ different API is a one-line change in LLMClient.__init__().
 """
 
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import logging
 import re
